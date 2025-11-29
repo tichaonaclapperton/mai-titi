@@ -1,0 +1,14 @@
+header{
+    background-image: url('../public/sadza.jpg');
+    width: 100%;
+    height: 200px;
+    background-position-x: center;
+    object-fit: cover;
+    padding: 20px;
+    padding-top: 0;
+    box-shadow: 0 4px 12px rgba(94, 5, 236, 0.15);
+}
+
+.header-subtitle{
+    color: white;
+}
