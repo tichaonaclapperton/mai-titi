@@ -2,7 +2,6 @@ import React from "react";
 import MenuCard from "../components/MenuCard";
 import populardishes from "../components/populardishes";
 import { Link } from "react-router-dom";
-import Contact from "./Contact";
 
 function viewCard(card) {
 	return (
@@ -20,7 +19,7 @@ export default function Home() {
 			<div className="menu-grid">{populardishes.map(viewCard)}</div>
 			<div className="about">
 				<div>
-					<img src="/public/sadza.jpg" alt="" />
+					<img src="/sadza.jpg" alt="" />
 				</div>
 				<div className="abt-us">
 					<h3>About Us</h3>
