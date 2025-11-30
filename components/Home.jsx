@@ -15,7 +15,7 @@ function viewCard(card) {
 export default function Home() {
 	return (
 		<section>
-			<h2 style={{ textAlign: "center" }}>Popular Dishes</h2>
+			<h2 style={{ textAlign: "center" }}>Popular Dishes <img className="drum" src="../public/drum.jpg" alt="" /></h2>
 
 			<div className="menu-grid">{populardishes.map(viewCard)}</div>
 			<div className="about">
