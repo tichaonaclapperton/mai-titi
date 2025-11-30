@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Header() {
 	return (
 		<header>
-			<h1>Mai Titi's Kitchen</h1>
+			<h1>Mai Titi's Kitchen  </h1>
 
 			<div className="hero-content">
 				<h2 className="header-subtitle">Authentic African Flavours</h2>

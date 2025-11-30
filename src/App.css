@@ -89,6 +89,10 @@ a{
   .abt-us{
     margin-left: 20px;
   }
+  .drum{
+    width: 30px;
+    height: 30px;
+  }
   
   .find-us h3 {
     margin-top: 0;
