@@ -19,7 +19,7 @@ function createCard(card) {
 export default function Menu() {
 	return (
 		<section>
-			<h2 style={{ textAlign: "center" }}>Menu<img className="drum" src="../public/drum.jpg" alt="" /></h2>
+			<h2 style={{ textAlign: "center" }}>Menu<img className="drum" src="../drum.jpg" alt="" /></h2>
 
 			<div className="menu-grid">{menuItems.map(createCard)}</div>
 		</section>
