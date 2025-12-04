@@ -11,4 +11,9 @@ header{
 
 .header-subtitle{
     color: white;
+    margin-top: 0;
+}
+
+.title{
+    margin-bottom: 0;
 }
