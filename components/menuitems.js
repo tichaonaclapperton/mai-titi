@@ -16,7 +16,7 @@ const menuItems = [
     {
       id: 3,
       name: "Jollof Rice",
-      price: "R85",
+      price: "R105",
       image: "../sadza.jpg",
       category: "Rice Meals",
     },
