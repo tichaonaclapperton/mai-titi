@@ -19,7 +19,7 @@ export default function Home() {
 			<div className="menu-grid">{populardishes.map(viewCard)}</div>
 			<div className="about">
 				<div>
-					<img src="../sadza.jpg" alt="food image" />
+					<img className="abt-image" src="../sadza.jpg" alt="food image" />
 				</div>
 				<div className="abt-us">
 					<h3>About Us</h3>
